@@ -42,6 +42,7 @@ def PrimeGenerator(number):
 
 
 def IsPrime(number):
+    # using the algorithm/pseducode found in wiki https://en.wikipedia.org/wiki/Primality_test
     if number <= 3:
         return number > 1
     elif (number % 2 == 0) or (number % 3 == 0):
